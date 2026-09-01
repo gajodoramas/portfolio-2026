@@ -1,0 +1,88 @@
+#background {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 20px;
+    color: var(--primary-text-color);
+}
+
+#background .category {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#background .item {
+    background: rgba(255, 255, 255, 0.02);
+    border: var(--glass-border);
+    border-radius: 12px;
+    padding: 30px;
+    backdrop-filter: blur(12px);
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#background .item:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--button-box-shadow);
+    border-color: var(--primary-color);
+}
+
+#background .header {
+    margin-bottom: 20px;
+}
+
+#background .header .role {
+    font-size: 1.5rem;
+    color: var(--text-highlight-color);
+    margin-bottom: 8px;
+}
+
+#background .header p {
+    color: var(--secondary-text-color);
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+}
+
+#background .description {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#background .achievements {
+    margin-bottom: 20px;
+}
+
+#background .achievements ul {
+    list-style-position: outside;
+    padding-left: 25px;
+    line-height: 1.6;
+}
+
+#background .achievements li {
+    margin-bottom: 8px;
+}
+
+#background .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#background .tags span {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--secondary-color);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+@media (max-width: 600px) {
+    #background .item {
+        padding: 20px;
+    }
+}
