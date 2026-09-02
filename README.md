@@ -6,5 +6,7 @@ across multiple **DCCs**, with a strong focus on **Blender** and
 building robust and scalable tools, and designing graphical user interfaces
 that enhance the user experience.
 
+[**Take a look to this potfolio**](https://gajodoramas.github.io/portfolio-2026/)!
+
 Connect with me via email at [**`gajodoramas@protonmail.com`**](mailto:gajodoramas@protonmail.com)
 or explore my professional journey on [**LinkedIn**](https://www.linkedin.com/in/gajodoramas/).
